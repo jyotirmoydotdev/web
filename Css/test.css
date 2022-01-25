@@ -1,0 +1,20 @@
+*{
+    background: black;
+    color: white;
+    border-color: sienna;
+   
+}
+p{
+    color: green;
+}
+li{
+    list-style-type: square;
+}
+.special{
+    color: orange;
+    font-weight: bold;
+}
+a:hover{
+    color: saddlebrown;
+    text-decoration: none;
+}
