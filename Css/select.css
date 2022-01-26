@@ -1,0 +1,21 @@
+/*To select whole page*/
+*{
+    background: red; /* To color background red */
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*To select h1 and h2 heading*/
+h1,h2{
+    color: chartreuse;
+}
+
+/*class selector*/
+.select{
+    
+    border-width: 1px;
+    border-style:double;
+    border-color: #000;
+    border-radius: 10px;
+    background: white;
+}
