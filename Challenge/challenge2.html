@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            color: green;
+            
+        }
+        .cont{
+            color: white;
+            display: grid;
+            grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+            
+            
+        }
+        .items{
+            min-width: 200px;
+            min-height: 100px;
+            
+        }
+        #item1{
+            background-color: black;
+            
+        }
+        #item2{
+            background-color: rgb(34, 34, 34);
+        }
+        #item3{
+            background-color: rgb(73, 73, 73);
+        }
+        #item4{
+            background-color: rgb(99, 99, 99);
+        }
+        @media screen and (max-width: 816px) and (min-width: 500px){
+            .cont{
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+        @media screen and (min-width: 1015px){
+            .cont{
+                grid-template-columns: repeat(4,1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Media Querry for Colums Increase or decreases the screen size to see the changes</h1>
+    <div class="cont">
+        <div class="items" id="item1">Name 1</div>
+        <div class="items" id="item2">Name 2</div>
+        <div class="items" id="item3">Name 3</div>
+        <div class="items" id="item4">Name 4</div>
+    </div>
+</body>
+</html>
