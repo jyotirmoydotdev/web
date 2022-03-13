@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-row: repeat(2,1fr);
+            grid-row-gap: 10px;
+            color: white;
+            
+        }
+
+        .itemin{
+            background-color: white;
+            color: black;
+            min-height: 50px;
+            min-width: 50px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .item{
+            background-color: skyblue;
+            border: 2px solid skyblue;
+            border-radius: 5px;
+        }
+        .item1{
+            display: grid;
+            grid-template-columns: 1fr 9fr;
+            padding: 10px;
+        }
+        .item2{
+            display: grid;
+            grid-template-columns: 9fr 1fr;
+            padding: 10px;
+        }
+        p{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item1">
+            <div class="itemin" > Image</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, necessitatibus.</p>
+        </div>
+        <div class="item item2">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, molestias.</p>
+            <div class="itemin " > Image</div>
+        </div>
+        <div class="item item1">
+            <div class="itemin "> Image</div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, odit.</p>
+        </div>
+        <div class="item item2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, nihil.</p>
+            <div class="itemin "> Image</div>
+        </div>
+    </div>
+</body>
+</html>

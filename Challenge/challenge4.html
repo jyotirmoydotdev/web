@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            scroll-behavior: smooth;
+            min-height: 5000px;
+        }
+        .headder{
+            display: grid;
+            text-align: center;
+            background-color: rgb(245, 125, 189);
+            padding: 30px;
+            color: white;
+            align-content:flex-start;
+            border-radius: 5px;
+        }
+        nav{
+            display: flex;
+            background-color: rgb(48, 47, 47);
+            gap: 1em;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+            color: white;
+            font-weight: bold;
+            border-radius: 5px;
+            overflow: hidden;
+            
+        }
+        .navitem{
+            padding-left: 20px;
+            text-align: center;
+        }
+        .container{
+            padding: 40px;
+            color: black;
+        }
+        .Links{
+            text-decoration: none ;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="headder"><h1>Product</h1></div>
+    <nav>
+        <div class="navitem"><a class="Links" href="#Hoses">Hoses</a></div>
+        <div class="navitem"><a class="Links" href="#Rakes">Rakes</a></div>
+        <div class="navitem"><a class="Links" href="#Shovels">Shovels</a></div>
+    </nav>
+    <div class="container">
+        <div class="items" id="Hoses"><h2>Hoses</h2></div>
+        <div class="items">Lorem ipsum dolor sit amet consectetur adipisicing elit. In distinctio, commodi rem id nobis maiores accusamus sapiente ipsa nam consectetur, dolorum non. Eius molestiae aspernatur, aliquam enim dolore natus placeat.</div>
+        <div class="items" id="Rakes"><h2>Rakes</h2></div>
+        <div class="items">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure tenetur delectus quas optio commodi eligendi molestias maxime blanditiis error omnis, impedit est odio cumque ullam voluptatem ad minima sapiente esse?</div>
+        <div class="items" id="Shovels"><h2>Shovels</h2></div>
+        <div class="items">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit laudantium nostrum illo recusandae, ea veniam facilis saepe voluptatibus voluptas. Dolores reprehenderit dignissimos pariatur doloremque eius consectetur esse aliquam excepturi suscipit?</div>
+    </div>
+</body>
+</html>
