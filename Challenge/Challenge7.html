@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            height: 100vh;
+            align-items: stretch;
+        }
+        .box1{
+            background-color: aquamarine;
+            color: black;
+            align-self: stretch;
+            min-width: 15%;
+            padding: 20px;
+        }
+        .box2{
+            display: flex;
+            flex-direction: column;
+            color: black;
+            width: 100%;
+            background-color: white;
+            
+        }
+        .header{
+            background-color: lightgreen;
+            padding: 20px;
+            position: sticky;
+            top:0px
+        }
+        .Article{
+            text-align: center;
+            align-self: flex-start;
+            height: 20000px;
+            padding: 20px;
+        }
+        .footer{
+            background-color: lightgreen;
+            bottom: 0px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1">Nav</div>
+        <div class="box box2">
+            <div class="header">Header</div>
+            <div class="Article">Article</div>
+            <div class="footer">Footer</div>
+        </div>
+    </div>
+</body>
+</html>

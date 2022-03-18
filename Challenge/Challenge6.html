@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(255, 255, 255);
+        }
+        .row{
+            display: flex;
+            flex-direction: row;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            align-items: flex-end;
+        }
+        .row2{
+            flex-direction: row-reverse;
+            align-items:flex-start;
+        }
+        .row2 :nth-child(2) { order: 1; }
+        .box{
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            align-items: center;
+            margin-left: 10px ;
+            margin-right: 10px ;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            flex-wrap: wrap;
+        }
+        .p{
+            padding: 10px;
+            margin: 10px;
+        }
+        img{
+            width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        input#buttom{
+            width: 100%;
+            text-align: center;
+            background-color: rgb(141, 139, 139);
+            color: white;
+            padding: 5px;
+            border-radius: 10px;
+            align-self: center;
+            border-color: rgb(141, 139, 139);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="box">
+            <img src="https://www.w3schools.com/css/img_5terre.jpg" alt="">
+            <div class="p">
+                <h1>Best in class</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non atque quo deleniti magni sapiente, cum necessitatibus quae voluptas! Eligendi, facere?</p>
+                <input type="button" value="Here's Why" id="buttom">
+            </div>
+
+        </div>
+        <div class="box">
+            <img src="https://www.w3schools.com/css/lights600x400.jpg" alt="">
+            <div class="p">
+                <h1>Dynamically Innovate Supply Chain</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque animi exercitationem id fugiat dolor praesentium nulla nemo temporibus veniam ipsam!
+                </p>
+                <input type="button" value="Here's Why" id="buttom">
+            </div>
+        </div>
+        <div class="box box3">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhHB8Y1pI32q92yZNLkKLam59f5aCIekDcUg&usqp=CAU" alt="">
+            <div class="p">
+                <h1>Sanity Check</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum ratione quisquam enim qui eum at dolorem facilis minima sapiente recusandae.</p>
+                <input type="button" value="Here's Why" id="buttom">
+            </div>
+        </div>
+    </div>
+    <div class="row row2">
+        <div class="box">
+            <img src="https://www.w3schools.com/css/img_5terre.jpg" alt="">
+            <div class="p">
+                <h1>Best in class</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non atque quo deleniti magni sapiente, cum necessitatibus quae voluptas! Eligendi, facere?</p>
+                <input type="button" value="Here's Why" id="buttom">
+            </div>
+
+        </div>
+        <div class="box">
+            <img src="https://www.w3schools.com/css/lights600x400.jpg" alt="">
+            <div class="p">
+                <h1>Dynamically Innovate Supply Chain</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque animi exercitationem id fugiat dolor praesentium nulla nemo temporibus veniam ipsam!
+                </p>
+                <input type="button" value="Here's Why" id="buttom">
+            </div>
+        </div>
+        <div class="box box3">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhHB8Y1pI32q92yZNLkKLam59f5aCIekDcUg&usqp=CAU" alt="">
+            <div class="p">
+                <h1>Sanity Check</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum ratione quisquam enim qui eum at dolorem facilis minima sapiente recusandae.</p>
+                <input type="button" value="Here's Why" id="buttom">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
