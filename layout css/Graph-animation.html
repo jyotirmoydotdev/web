@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(6,1fr);
+            gap: 10px;
+            width: 100%;
+            height: 400px;
+            border: 2px solid white;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .bars{
+            background-color: lightgreen;
+            border-radius: 10px;
+        }
+        .bar1{
+            height: 50vh;
+            align-self: flex-end;
+            transition: height 3s, background-color 3s, font-size 3s;
+            color: black;
+            writing-mode:vertical-lr;
+            padding-top: 10px;
+            overflow-y: hidden;
+        }
+        .bar2{
+            height: 20vh;
+            align-self: flex-end;
+            transition: height 3s, background-color 3s;
+        }
+        .bar3{
+            height: 30vh;
+            align-self: flex-end;
+            transition: height 3s, background-color 3s;
+        }
+        .bar4{
+            height: 10vh;
+            align-self: flex-end;
+            transition: height 3s, background-color 3s;
+        }
+        .bar5{
+            height: 40vh;
+            align-self: flex-end;
+            transition: height 3s, background-color 3s;
+        }
+        .bar6{
+            height: 25vh;
+            align-self: flex-end;
+            transition: height 3s, background-color 3s;
+        }
+        .container:hover{
+            
+        }
+        .bar1:hover{
+            height: 10vh;
+            align-self: flex-end;
+            background-color: red;
+            font-size: 5px;
+        }
+        .bar2:hover{
+            height: 50vh;
+            align-self: flex-end;
+            background-color: skyblue;
+        }
+        .bar3:hover{
+            height: 20vh;
+            align-self: flex-end;
+            background-color: red;
+        }
+        .bar4:hover{
+            height: 50vh;
+            align-self: flex-end;
+            background-color: pink;
+        }
+        .bar5:hover{
+            height: 10vh;
+            align-self: flex-end;
+            background-color: red;
+        }
+        .bar6:hover{
+            height: 10vh;
+            align-self: flex-end;
+            background-color: red;
+        }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="bars bar1">
+            <h1>FHASION HUB</h1>
+        </div>
+        <div class="bars bar2"></div>
+        <div class="bars bar3"></div>
+        <div class="bars bar4"></div>
+        <div class="bars bar5"></div>
+        <div class="bars bar6"></div>
+    </div>
+</body>
+</html>

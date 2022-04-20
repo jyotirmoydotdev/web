@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            color: black;
+            gap: 10px;
+            grid-template-columns: 2fr 8fr
+        }
+        .box1{
+            background-color: yellow;
+            padding: 20px;
+        }
+        .box2{
+            display: grid;
+            width: 100%;
+            height: 100vh;
+            gap: 10px;
+            grid-template-rows: 1fr 8fr 1fr;
+        }
+        .inbox{
+            background-color: yellow;
+        }
+        .inbox1{
+            padding: 20px;
+        }
+        .inbox3{
+            padding: 20px;
+        }
+        .inbox2{
+            display: grid;
+            background-color: transparent;
+            width: 100%;
+            gap: 10px;
+            grid-template-columns: 7fr 3fr;
+        }
+        .ininbox{
+            background-color: yellow;
+            gap: 10px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">Nav</div>
+        <div class="box2">
+            <div class="inbox inbox1">Header</div>
+            <div class="inbox inbox2">
+                <div class="ininbox">Article</div>
+                <div class="ininbox">Ads</div>
+            </div>
+            <div class="inbox inbox3">Footer</div>
+        </div>
+    </div>
+</body>
+</html>
